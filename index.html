@@ -7,6 +7,8 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+    <link rel="stylesheet" href="css/dc.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- Google Material Icons -->
@@ -26,43 +28,75 @@
             <i id="input-button" class="material-icons">cloud_upload</i><br />
             <span id="file-name">Nenhum arquivo escolhido.</span>
         </div>
-        <!-- <button type="button" id="start-button"><i class="material-icons">play_circle_filled</i></button> -->
-        <i id="start-button" class="material-icons">play_circle_filled</i>
+        <!-- <button type="button" id="submit-button"><i class="material-icons">play_circle_filled</i></button> -->
+        <i id="submit-button" class="material-icons">play_circle_filled</i>
     </div>
-
     <div class="container-fluid left">
         <div class="row">
-            <div class="col-md">coluna 1<br>coluna 1<br>coluna 1</div>
-            <div class="col-md">coluna 2<br>coluna 2<br>coluna 2</div>
+            <div id="smenu" class='col-6'></div>
+            <div id="smenu2" class='col-6'></div>
+        </div>
+        <div class="row">
+            <div class="col-lg">
+                <div id='chart1'></div>
+            </div>
+            <div class="col-lg">
+                <div id='chart2'></div>
+            </div>
         </div>        
     </div>
 
-    <div class="container-fluid right bg-blue">
+    <div class="container-fluid center bg-blue">
         <div class="row">
-            <div class="col-lg">coluna 1<br>coluna 1<br>coluna 1</div>
-            <div class="col-lg">coluna 2<br>coluna 2<br>coluna 2</div>
-            <div class="col-lg">coluna 3<br>coluna 3<br>coluna 3</div>
+            <div id='chart5'></div>
         </div>
     </div>
 
     <div class="container-fluid left">
+
+        <div id="smenu3" class='col-1'></div>
         <div class="row">
-            <div class="col-md">coluna 1<br>coluna 1<br>coluna 1</div>
-            <div class="col-md">coluna 2<br>coluna 2<br>coluna 2</div>
-        </div>        
+            <div id='chart3'></div>
+        </div>
+        <div class="row">
+            <div id='chart4'></div>
+        </div>
     </div>
 
     <div class="container-fluid right bg-blue">
         <div class="row">
-            <div class="col-lg">coluna 1<br>coluna 1<br>coluna 1</div>
-            <div class="col-lg">coluna 2<br>coluna 2<br>coluna 2</div>
-            <div class="col-lg">coluna 3<br>coluna 3<br>coluna 3</div>
+            <div id='chart7'></div>
         </div>
     </div>
 
+    <div class="container-fluid center">
+        <div class="row">
+            <table class="table table-hover" id="table">
+                <thead>
+                    <tr class="header">
+                        <th>Q</th>
+                        <!-- <th>TIPO</th> -->
+                        <th>CT</th>
+                        <th>C</th>
+                        <th>D</th>
+                        <th>DT</th>
+                        <th>NSA</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+    <!-- Bootstrap javascript files -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://vega.github.io/vega/vega.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="js/crossfilter.min.js"></script>
+    <script src="js/dc.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/graphics.js"></script>
 </body>
 </html>

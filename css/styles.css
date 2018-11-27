@@ -50,7 +50,7 @@ body {
 
 /* Buttons */
 
-#start-button {
+#submit-button {
     padding: 10px;
     min-width: 100px;
     color: #333;
@@ -63,7 +63,7 @@ body {
     box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
 }
 
-#start-button:hover {
+#submit-button:hover {
     background-color: #bcff86;
 }
 
