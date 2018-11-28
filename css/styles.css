@@ -6,7 +6,6 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    color: white;
 }
 
 .parallax { 
@@ -46,6 +45,12 @@ body {
 .banner {
     background-color: transparent!important;
     min-height: 70%;
+    color: white;
+}
+
+.container-fluid p {
+    max-width: 70%;
+    margin: auto;
 }
 
 /* Buttons */
@@ -96,4 +101,8 @@ body {
     margin-left: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f3f3f5;
+}
+
+.row {
+    padding: 20px;
 }
