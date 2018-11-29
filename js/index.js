@@ -28,14 +28,14 @@ realFileButton.addEventListener("change", (event) => {
 });
 
 submitButton.addEventListener("click", () => {
-	console.log(selectedFile);
+	console.log(selectedFile,'dxgfdxg');
 	loadData("data/file.csv");
 });
 
 // load data from a csv file
 function loadData(path) {
 	d3.csv(path).then(function (data) {
-
+	console.log(data)
 		// format our data
 	data.forEach(function(d){
 		d.ques = `Questão ${d.q}`;
