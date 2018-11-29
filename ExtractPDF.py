@@ -111,7 +111,7 @@ def createTable():
 
     final = pd.concat(resultAll)
 
-    csv_name = "file.csv"
+    csv_name = "data/file.csv"
 
     final.to_csv(csv_name, index=False)
 
