@@ -1,45 +1,45 @@
 q,fonte,tipo,ano,ct,c,d,dt,nsa
-01,curso: ciência da computação ( fortaleza ),discente,2016.1,48.96,37.50,12.50,1.04,0.0
-02,curso: ciência da computação ( fortaleza ),discente,2016.1,53.13,36.46,10.42,0.0,0.0
-03,curso: ciência da computação ( fortaleza ),discente,2016.1,60.42,33.33,6.25,0.0,0.0
-04,curso: ciência da computação ( fortaleza ),discente,2016.1,55.21,33.33,9.38,2.08,0.0
-05,curso: ciência da computação ( fortaleza ),discente,2016.1,64.58,30.21,4.17,1.04,0.0
-06,curso: ciência da computação ( fortaleza ),discente,2016.1,31.25,42.71,13.54,5.21,7.29
-07,curso: ciência da computação ( fortaleza ),discente,2016.1,31.25,50.00,14.58,3.13,1.04
-08,curso: ciência da computação ( fortaleza ),discente,2016.1,30.21,46.88,9.38,1.04,12.50
-09,curso: ciência da computação ( fortaleza ),discente,2016.1,30.21,52.08,8.33,2.08,7.29
-10,curso: ciência da computação ( fortaleza ),discente,2016.1,28.13,34.38,16.67,3.13,17.71
-11,curso: ciência da computação ( fortaleza ),discente,2016.1,31.25,50.00,9.38,4.17,5.21
-01,curso ciência da computação - fortaleza,discente,2016.2,41.18,48.24,7.06,3.53,0.0
-02,curso ciência da computação - fortaleza,discente,2016.2,49.41,44.71,3.53,2.35,0.0
-03,curso ciência da computação - fortaleza,discente,2016.2,56.47,38.82,4.71,0.0,0.0
-04,curso ciência da computação - fortaleza,discente,2016.2,55.29,38.82,4.71,1.18,0.0
-05,curso ciência da computação - fortaleza,discente,2016.2,58.82,31.76,7.06,2.35,0.0
-06,curso ciência da computação - fortaleza,discente,2016.2,41.18,35.29,15.29,4.71,3.53
-07,curso ciência da computação - fortaleza,discente,2016.2,44.71,40.00,10.59,4.71,0.0
-08,curso ciência da computação - fortaleza,discente,2016.2,40.00,42.35,7.06,3.53,7.06
-09,curso ciência da computação - fortaleza,discente,2016.2,43.53,42.35,8.24,0.0,5.88
-10,curso ciência da computação - fortaleza,discente,2016.2,30.59,40.00,10.59,2.35,16.47
-11,curso ciência da computação - fortaleza,discente,2016.2,32.94,47.06,10.59,8.24,1.18
-01,departamento departamento de computação - fortaleza,docente,2016.2,57.89,36.84,5.26,0.0,0.0
-02,departamento departamento de computação - fortaleza,docente,2016.2,57.89,31.58,10.53,0.0,0.0
-03,departamento departamento de computação - fortaleza,docente,2016.2,63.16,31.58,0.0,5.26,0.0
-04,departamento departamento de computação - fortaleza,docente,2016.2,42.11,15.79,31.58,10.53,0.0
-05,departamento departamento de computação - fortaleza,docente,2016.2,31.58,36.84,21.05,5.26,5.26
-06,departamento departamento de computação - fortaleza,docente,2016.2,26.32,52.63,15.79,5.26,0.0
-07,departamento departamento de computação - fortaleza,docente,2016.2,21.05,36.84,42.11,0.0,0.0
-08,departamento departamento de computação - fortaleza,docente,2016.2,26.32,52.63,10.53,5.26,5.26
-09,departamento departamento de computação - fortaleza,docente,2016.2,26.32,36.84,21.05,10.53,5.26
-10,departamento departamento de computação - fortaleza,docente,2016.2,15.79,57.89,15.79,0.0,10.53
-11,departamento departamento de computação - fortaleza,docente,2016.2,42.11,31.58,21.05,5.26,0.0
-01,departamento departamento de computação - fortaleza,docente,2016.1,52.94,41.18,5.88,0.0,0.0
-02,departamento departamento de computação - fortaleza,docente,2016.1,52.94,35.29,11.76,0.0,0.0
-03,departamento departamento de computação - fortaleza,docente,2016.1,64.71,29.41,5.88,0.0,0.0
-04,departamento departamento de computação - fortaleza,docente,2016.1,35.29,41.18,23.53,0.0,0.0
-05,departamento departamento de computação - fortaleza,docente,2016.1,41.18,41.18,17.65,0.0,0.0
-06,departamento departamento de computação - fortaleza,docente,2016.1,23.53,52.94,11.76,5.88,5.88
-07,departamento departamento de computação - fortaleza,docente,2016.1,29.41,41.18,29.41,0.0,0.0
-08,departamento departamento de computação - fortaleza,docente,2016.1,23.53,52.94,5.88,0.0,17.65
-09,departamento departamento de computação - fortaleza,docente,2016.1,29.41,58.82,5.88,0.0,5.88
-10,departamento departamento de computação - fortaleza,docente,2016.1,11.76,70.59,11.76,0.0,5.88
-11,departamento departamento de computação - fortaleza,docente,2016.1,11.76,70.59,11.76,5.88,0.0
+1.0,curso: ciência da computação ( fortaleza ),discente,2016.1,48.96,37.5,12.5,1.04,0.0
+2.0,curso: ciência da computação ( fortaleza ),discente,2016.1,53.13,36.46,10.42,0.0,0.0
+3.0,curso: ciência da computação ( fortaleza ),discente,2016.1,60.42,33.33,6.25,0.0,0.0
+4.0,curso: ciência da computação ( fortaleza ),discente,2016.1,55.21,33.33,9.38,2.08,0.0
+5.0,curso: ciência da computação ( fortaleza ),discente,2016.1,64.58,30.21,4.17,1.04,0.0
+6.0,curso: ciência da computação ( fortaleza ),discente,2016.1,31.25,42.71,13.54,5.21,7.29
+7.0,curso: ciência da computação ( fortaleza ),discente,2016.1,31.25,50.0,14.58,3.13,1.04
+8.0,curso: ciência da computação ( fortaleza ),discente,2016.1,30.21,46.88,9.38,1.04,12.5
+9.0,curso: ciência da computação ( fortaleza ),discente,2016.1,30.21,52.08,8.33,2.08,7.29
+10.0,curso: ciência da computação ( fortaleza ),discente,2016.1,28.13,34.38,16.67,3.13,17.71
+11.0,curso: ciência da computação ( fortaleza ),discente,2016.1,31.25,50.0,9.38,4.17,5.21
+1.0,curso ciência da computação - fortaleza,discente,2016.2,41.18,48.24,7.06,3.53,0.0
+2.0,curso ciência da computação - fortaleza,discente,2016.2,49.41,44.71,3.53,2.35,0.0
+3.0,curso ciência da computação - fortaleza,discente,2016.2,56.47,38.82,4.71,0.0,0.0
+4.0,curso ciência da computação - fortaleza,discente,2016.2,55.29,38.82,4.71,1.18,0.0
+5.0,curso ciência da computação - fortaleza,discente,2016.2,58.82,31.76,7.06,2.35,0.0
+6.0,curso ciência da computação - fortaleza,discente,2016.2,41.18,35.29,15.29,4.71,3.53
+7.0,curso ciência da computação - fortaleza,discente,2016.2,44.71,40.0,10.59,4.71,0.0
+8.0,curso ciência da computação - fortaleza,discente,2016.2,40.0,42.35,7.06,3.53,7.06
+9.0,curso ciência da computação - fortaleza,discente,2016.2,43.53,42.35,8.24,0.0,5.88
+10.0,curso ciência da computação - fortaleza,discente,2016.2,30.59,40.0,10.59,2.35,16.47
+11.0,curso ciência da computação - fortaleza,discente,2016.2,32.94,47.06,10.59,8.24,1.18
+1.0,departamento departamento de computação - fortaleza,docente,2016.2,57.89,36.84,5.26,0.0,0.0
+2.0,departamento departamento de computação - fortaleza,docente,2016.2,57.89,31.58,10.53,0.0,0.0
+3.0,departamento departamento de computação - fortaleza,docente,2016.2,63.16,31.58,0.0,5.26,0.0
+4.0,departamento departamento de computação - fortaleza,docente,2016.2,42.11,15.79,31.58,10.53,0.0
+5.0,departamento departamento de computação - fortaleza,docente,2016.2,31.58,36.84,21.05,5.26,5.26
+6.0,departamento departamento de computação - fortaleza,docente,2016.2,26.32,52.63,15.79,5.26,0.0
+7.0,departamento departamento de computação - fortaleza,docente,2016.2,21.05,36.84,42.11,0.0,0.0
+8.0,departamento departamento de computação - fortaleza,docente,2016.2,26.32,52.63,10.53,5.26,5.26
+9.0,departamento departamento de computação - fortaleza,docente,2016.2,26.32,36.84,21.05,10.53,5.26
+10.0,departamento departamento de computação - fortaleza,docente,2016.2,15.79,57.89,15.79,0.0,10.53
+11.0,departamento departamento de computação - fortaleza,docente,2016.2,42.11,31.58,21.05,5.26,0.0
+1.0,departamento departamento de computação - fortaleza,docente,2016.1,52.94,41.18,5.88,0.0,0.0
+2.0,departamento departamento de computação - fortaleza,docente,2016.1,52.94,35.29,11.76,0.0,0.0
+3.0,departamento departamento de computação - fortaleza,docente,2016.1,64.71,29.41,5.88,0.0,0.0
+4.0,departamento departamento de computação - fortaleza,docente,2016.1,35.29,41.18,23.53,0.0,0.0
+5.0,departamento departamento de computação - fortaleza,docente,2016.1,41.18,41.18,17.65,0.0,0.0
+6.0,departamento departamento de computação - fortaleza,docente,2016.1,23.53,52.94,11.76,5.88,5.88
+7.0,departamento departamento de computação - fortaleza,docente,2016.1,29.41,41.18,29.41,0.0,0.0
+8.0,departamento departamento de computação - fortaleza,docente,2016.1,23.53,52.94,5.88,0.0,17.65
+9.0,departamento departamento de computação - fortaleza,docente,2016.1,29.41,58.82,5.88,0.0,5.88
+10.0,departamento departamento de computação - fortaleza,docente,2016.1,11.76,70.59,11.76,0.0,5.88
+11.0,departamento departamento de computação - fortaleza,docente,2016.1,11.76,70.59,11.76,5.88,0.0

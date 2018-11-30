@@ -1,5 +1,4 @@
 import pdftotext
-import csv
 import pandas as pd
 import os
 from flask import Flask
@@ -58,9 +57,7 @@ def createTable():
             for i in range(len(questoes)):
                 year.append(pdf[1].split("\n")[8].split()[2])
 
-            dt.append(pd.DataFrame(
-                [[questoes[i][0], fonte[i], tipo[i], year[i]] + questoes[i][1:] for (i, n) in enumerate(questoes)],
-                columns=["q", "fonte", "tipo", "ano", "ct", "c", "d", "dt", "nsa"]))
+            dt.append(pd.DataFrame([[questoes[i][0], fonte[i], tipo[i], year[i]] + questoes[i][1:] for (i, n) in enumerate(questoes)],columns=["q", "fonte", "tipo", "ano", "ct", "c", "d", "dt", "nsa"]))
 
         list_df = []
         for array in dt:
@@ -96,6 +93,11 @@ def createTable():
             questoes = []
             for i in range(15, 26):
                 questoes.append(pdf[1].split("\n")[i].split())
+
+            for k in range(len(questoes)):
+                for l in range(len(questoes[k])):
+                    questoes[k][l] = questoes[k][l].replace(",", ".")
+                    questoes[k][l] = float(questoes[k][l])
 
             dt.append(pd.DataFrame(
                 [[questoes[i][0], fonte[i], tipo[i], year[i]] + questoes[i][1:] for (i, n) in enumerate(questoes)],
